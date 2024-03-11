@@ -23,7 +23,7 @@ git commit -m "$COMMIT_MESSAGE"
 git remote set-url origin https://$GITHUB_USERNAME:$YOUR_ACCESS_TOKEN@github.com/$GITHUB_USERNAME/$REPOSITORY.git
 
 # Push the changes to GitHub
-git push origin Main
+git push origin main
 
 # Reset the remote URL to hide your access token
 git remote set-url origin https://github.com/$GITHUB_USERNAME/$REPOSITORY.git
