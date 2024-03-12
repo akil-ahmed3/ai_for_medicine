@@ -2,3 +2,4 @@ Data
 .env
 upload_to_git.sh
 *.ipynb_checkpoints
+models
